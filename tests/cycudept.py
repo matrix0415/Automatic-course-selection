@@ -1,0 +1,7 @@
+import requests
+
+r =requests.get("http://itouch.cycu.edu.tw/active_system/CourseQuerySystem/GetDept.jsp?yearTerm=1031")
+
+lst =r.text.split("@")
+
+print(len(lst))

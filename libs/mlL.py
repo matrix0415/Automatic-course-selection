@@ -1,0 +1,3 @@
+class classifier(object):
+	pass
+		
